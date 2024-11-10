@@ -1,0 +1,71 @@
+.sobre {
+  padding: 100px 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.sobre h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  color: #111;
+}
+
+.sobre p {
+  font-size: 1.2rem;
+  margin-bottom: 40px;
+  color: #666;
+  line-height: 1.5;
+}
+
+.sobre section {
+  margin-bottom: 60px;
+}
+
+.sobre h2 {
+  font-size: 2rem;
+  color: #222;
+  margin-bottom: 15px;
+}
+
+.informacoes-pessoais {
+  font-size: 1.2rem;
+  color: #444;
+}
+
+.informacoes-pessoais em {
+  font-style: italic;
+  color: #888;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.social-links a {
+  text-decoration: none;
+  color: #1a73e8;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.social-links a:hover {
+  text-decoration: underline;
+}
+
+.sobre ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.sobre ul li {
+  font-size: 1.2rem;
+  color: #777;
+  font-weight: bold;
+}
+

@@ -1,0 +1,50 @@
+.sneakerpedia {
+  max-width: 1200px;
+  margin: 50px auto;
+  padding: 20px;
+}
+
+.sneaker-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 60px;
+  padding: 30px 0;
+}
+
+.sneaker-item .sneaker-text {
+  width: 60%;
+}
+
+.sneaker-item .sneaker-image {
+  width: 35%;
+}
+
+.sneaker-item img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.sneaker-item h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.sneaker-item p {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.sneaker-item.reverse {
+  flex-direction: row-reverse;
+}
+
+.sneakerpedia {
+  max-width: 1200px;
+  margin: 50px auto;
+  padding: 20px;
+}
+
+

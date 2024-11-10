@@ -1,0 +1,62 @@
+.landing {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+  margin-top: 80px;
+  padding: 20px;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.text-content {
+  max-width: 50%;
+  padding-right: 40px;
+}
+
+.text-content h1 {
+  font-size: 3.0rem;
+  font-weight: 700;
+  margin-bottom: 15px;
+  color: #000;
+}
+
+.text-content p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  color: #555;
+}
+
+.cta {
+  padding: 12px 30px;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  text-transform: uppercase;
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: 50px;
+  display: inline-block;
+  transition: 0.3s;
+}
+
+.cta:hover {
+  background-color: #fff;
+  color: #000;
+  border: 2px solid #000;
+}
+
+
+.jordan-image {
+  width: 100vh;
+  height: auto;
+}
+
+
+

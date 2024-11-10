@@ -1,0 +1,42 @@
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 30px;
+  background-color: rgba(0, 0, 0, 0.1); /* Cor preta com transparência de 10% */
+  position: absolute;
+  top: 0;
+  padding: 2%;
+  width: 100%;
+  z-index: 10;
+}
+
+.navbar .logo {
+  position: absolute;
+  left: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.navbar .logo img {
+  max-width: 100px;
+  display: block;
+}
+
+.nav-links {
+  display: flex;
+  gap: 30px;
+}
+
+.nav-links a {
+  color: #000;
+  font-weight: 400;
+  font-size: 16px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #333;
+  transform: scale(1.1);
+}
